@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Css/grid.css">
+
+    <style>
+        body{
+            display: flexbox;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+        }
+        .container{
+            --cols: 3;
+            --gap: 15px;
+            --height: 35rem;
+
+
+
+            display: grid;
+            grid-template-columns: repeat(var(--cols), 1fr);
+            grid-auto-rows: repeat(var(--height));
+            gap: var(--gap);
+            margin: 0 auto;
+            
+            width: 50%;
+            
+        }
+        
+        .info{
+            width: 100%;
+        }
+        .image{
+            height: 200px;
+            width: 200px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            object-fit: cover;
+            overflow: hidden;
+            
+        }
+        .image img{
+            width: 100%;
+            height: 100%;
+        }
+
+        
+    </style>
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="sub">
+            <div class="image" >
+                <img src="images/1.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <button>Add to thiings</button>
+            </div>
+        </div>
+
+        <div class="sub">
+            <div class="image"  style="background-image: url('./images/2.jpg');">
+                
+            </div>
+            <div class="info">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <button>Add to thiings</button>
+            </div>
+        </div>
+
+        <div class="sub">
+            <div class="image"  style="background-image: url('./images/1.jpg');">
+                
+            </div>
+            <div class="info">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <button>Add to thiings</button>
+            </div>
+        </div>
+
+        <div class="sub">
+            <div class="image" >
+                <img src="images/4.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <button>Add to thiings</button>
+            </div>
+        </div>
+
+        <div class="sub">
+            <div class="image" >
+                <img src="images/4.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <button>Add to thiings</button>
+            </div>
+        </div>
+
+        <div class="sub">
+            <div class="image" >
+                <img src="images/4.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <button>Add to thiings</button>
+            </div>
+        </div>
+
+        <div class="sub">
+            <div class="image" >
+                <img src="images/4.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <button>Add to thiings</button>
+            </div>
+        </div>
+        <div class="sub">
+            <div class="image" >
+                <img src="images/4.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <button>Add to thiings</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
